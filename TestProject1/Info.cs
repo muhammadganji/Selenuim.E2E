@@ -1,7 +1,4 @@
-﻿using System.Data.SqlClient;
-using System.Text;
-
-namespace TestProject1;
+﻿namespace TestProject1;
 
 public class Info : IDisposable
 {
@@ -16,8 +13,8 @@ public class Info : IDisposable
     protected const string URL_RECEIPT = "http://192.168.1.103:5036/panel/admin/receipt";
     protected const string URL_DASHBOARD_ADMIN = "http://192.168.1.103:5036/panel/admin/dashboard";
 
-    protected const string LOGIN_USERNAME = "00000000000";
-    protected const string LOGIN_CODE = "05837";
+    protected const string LOGIN_USERNAME = "***";
+    protected const string LOGIN_CODE = "***";
     protected const string BUILDING_TITLE = "ساختمان امیران دومی";
     protected const string BUILDING_UNIT_COUNT = "4";
     protected const string BUILDING_INIT_CASH = "0";
@@ -34,10 +31,10 @@ public class Info : IDisposable
         _driver.Manage().Window.Maximize();
         builder = new SqlConnectionStringBuilder()
         {
-            DataSource = "192.168.1.102\\SQL2017",
-            InitialCatalog = "SharjBookLocal",
-            UserID = "sharj",
-            Password = "1400",
+            DataSource = "***",
+            InitialCatalog = "***",
+            UserID = "***",
+            Password = "***",
             MultipleActiveResultSets = true,
             MaxPoolSize = 32767,
             TrustServerCertificate = true
