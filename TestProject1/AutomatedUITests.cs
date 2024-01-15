@@ -1,5 +1,8 @@
 ﻿namespace TestProject1;
 
+/// <summary>
+/// Test scenario
+/// </summary>
 public class AutomatedUITests : Info
 {
     /// <summary>
